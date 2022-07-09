@@ -58,14 +58,16 @@ Directory) to local system’s access rights.
 - In the body section of the post api requet select **json** type format to send json format data to server
 ![image](https://user-images.githubusercontent.com/56317574/178114721-a6b7d3ca-f0e3-4acb-b1cf-c16c285539bd.png)
 
-- write the following json data in the editor and click send <br>
-  <pre> {
+- Write the following json data or the json displayed in the above image in the editor and click send button <br>
+  <pre>
+  {
     "name":"person-1",
     "roles":[
         {"role":"002 - Clinical personnel"},
         {"role":"003 - Warehouse personnel"}
     ]
-}<pre>
+}
+<pre> <br>
 
 - Finally, you will receive the following result
     ![image](https://user-images.githubusercontent.com/56317574/178114908-3bfee331-76e1-414e-a836-ee97c7e187fe.png)
