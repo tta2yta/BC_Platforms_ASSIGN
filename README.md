@@ -31,11 +31,19 @@ Directory) to local system’s access rights.
 - Node
 
 ## 🔨 Setup<a name = "setup"></a>
-### Run a Local Copy
+### Run a Local Copy for server(nodejs)
 - Download the repository to a local directory on your computer.
 - Or run the following commands on the terminal
 -  $ git clone https://github.com/tta2yta/BC_Platforms_ASSIGN.git
 - $ cd server
+-  $ npm install
+-  $ npm start (This is the development mode)
+
+### Run a Local Copy for client(reactjs)
+- Download the repository to a local directory on your computer.
+- Or run the following commands on the terminal
+-  $ git clone https://github.com/tta2yta/BC_Platforms_ASSIGN.git
+- $ cd client
 -  $ npm install
 -  $ npm start (This is the development mode)
 -  $ npm run build (This is the production mode)
