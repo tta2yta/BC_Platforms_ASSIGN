@@ -72,7 +72,7 @@ Directory) to local system’s access rights.
 - Finally, you will receive the following result
     ![image](https://user-images.githubusercontent.com/56317574/178114908-3bfee331-76e1-414e-a836-ee97c7e187fe.png)
 
-### Test Front-end React application
+### Test server with Front-end React application
 - make sure you run command ($ npm start ). Default port the application running is 3000.
 - You will see the following GUI
    ![image](https://user-images.githubusercontent.com/56317574/178115502-e41b382c-85e3-4b87-95f0-0eb24423b1f2.png)
