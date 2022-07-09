@@ -48,10 +48,12 @@ Directory) to local system’s access rights.
 -  $ npm start (This is the development mode)
 -  $ npm run build (This is the production mode)
 
-## Run Test
-npm run test
+## Run Test (Functional Testing)
+### Test server with postman
+- make sure you run command ($ npm start ). The server will start listing at port 8000.
+- Open PostMan and create post request with the url =  127.0.01:8000/roles/customer-role or http://127.0.01:8000/roles/customer-role
 
-npm run jest
+![image](https://user-images.githubusercontent.com/56317574/178114564-d4dc92df-fbd2-4b2f-b512-f5c962d0ac5c.png)
 
 
 If you are non a technical person you can download the zip file.
