@@ -49,6 +49,7 @@ Directory) to local system’s access rights.
 -  $ npm run build (This is the production mode)
 
 ## Run Test (Functional Testing)
+ You can test the application with two ways, with postman and front-end React application
 ### Test server with postman
 - make sure you run command ($ npm start ). The server will start listing at port 8000.
 - Open PostMan and create post api request with the url =  127.0.01:8000/roles/customer-role or http://127.0.01:8000/roles/customer-role
@@ -71,20 +72,15 @@ Directory) to local system’s access rights.
 - Finally, you will receive the following result
     ![image](https://user-images.githubusercontent.com/56317574/178114908-3bfee331-76e1-414e-a836-ee97c7e187fe.png)
 
+### Test Front-end React application
+- make sure you run command ($ npm start ). Default port the application running is 3000.
+- You will see the following GUI
+   ![image](https://user-images.githubusercontent.com/56317574/178115502-e41b382c-85e3-4b87-95f0-0eb24423b1f2.png)
+- Type name, select customer roles from list of options and select submit
+   ![image](https://user-images.githubusercontent.com/56317574/178115556-13bec890-d3e7-456b-8810-b40860433132.png)
+- Once you clicked the submit, you will get the synchronized role below the submit button
+   ![image](https://user-images.githubusercontent.com/56317574/178115629-c0ef9c84-c628-48af-8be4-f9b000e620f3.png)
 
-If you are non a technical person you can download the zip file.
-
-- To do that you have to go to the green button that says 'Code' and then press on it.
-- Choose the option 'Download Zip' and wait until it download.
-- Then you need to decompress it.
-- You will need to have Zip compress file software installed in your computer. If you don't have it you can download it from here
-  [`https://www.7-zip.org/download.html`](https://www.7-zip.org/download.html)
-- Do double click on the math-magicians.zip and choose a folder where to place all teh decompressed files.
-- Once you are done decompressing, you can open the created folder.
-- In it you can double click on the index.html file and choose a browser to open it (For example google Chrome Browser).
-- Now you should be able to see the project.
-- Remember to use the mouse to navigate through the website. Also you can use the keys 'arrow up' and 'arrow down' of your keyboard
-  to scroll up and down.
 
 ## Prerequisites<a name = "prerequisites"></a>
 - npm
@@ -104,16 +100,11 @@ If you are non a technical person you can download the zip file.
 
 Contributions, issues and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/tta2yta/redux-bookstore/issues).
+Feel free to check the [issues page](https://github.com/tta2yta/BC_Platforms_ASSIGN/issues).
 
 
 ## 👍 Show your support
 
 Give a ⭐️ if you like this project!
 
-## :clap: Acknowledgements
-- <a href="https://www.microverse.org/" target="_blank">microverse.org</a>
-- <a href="https://www.theodinproject.com/" target="_blank">The Odin Project</a>
-- <a href="https://netlify.com/" target="_blank">netlify</a>
-</a>
 </div>
