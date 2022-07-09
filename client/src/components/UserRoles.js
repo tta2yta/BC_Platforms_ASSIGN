@@ -31,29 +31,29 @@ function UserRoles() {
   }
 
   return (
-    <div className=' w-50 mx-auto'>
-      <h3>UserRoles</h3>
-      <div className=' border-1'>
-        <div className='d-flex form-group my-2'>
-          <label htmlFor='title' className='col-form-label text-md-end me-3'>
+    <div className=' w-50 mx-auto mt-5'>
+      <h3>User Roles Synchronization</h3>
+      <div className=' border-1 mt-4'>
+        <div className='d-flex form-group my-2 w-100'>
+          <label htmlFor='title' className='text-start w-25'>
             Name:
           </label>
           <input
             type='text'
             name='title'
             id='title'
-            className='form-control'
+            className='form-control w-75'
             placeholder='Name'
             value={name}
             onChange={(e) => setName(e.target.value)}
           />
         </div>
-        <div className='d-flex form-group my-2'>
-          <label htmlFor='title' className='col-form-label text-md-end me-3'>
-            Roles:
+        <div className='d-flex form-group my-2 w-100'>
+          <label htmlFor='title' className='text-start w-25'>
+            Customer Roles:
           </label>
           <select
-            className='form-select border-2'
+            className='form-select border-2 w-75'
             name='countryId'
             aria-label='Default select example'
             multiple
