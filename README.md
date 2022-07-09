@@ -1,7 +1,7 @@
 # BC_Platforms_ASSIGN
 
-[![View Code](https://img.shields.io/badge/View%20-Code-green)](https://github.com/tta2yta/redux-bookstore/pulls)
-[![Github Issues](https://img.shields.io/badge/GitHub-Issues-orange)](https://github.com/tta2yta/redux-bookstore/issues)
+[![View Code](https://img.shields.io/badge/View%20-Code-green)](https://github.com/tta2yta/BC_Platforms_ASSIGN/pulls)
+[![Github Issues](https://img.shields.io/badge/GitHub-Issues-orange)](https://github.com/tta2yta/BC_Platforms_ASSIGN/issues)
 
 
 ## Content
@@ -18,14 +18,8 @@
 
 ## About <a name = "about"></a>
 
-A basic book store app developed using React and Redux.. It is a Single Page App (SPA) that allows users to:
-
-Add, Remove books
-Provide comments.
-
-
-## 🔴 Live Demo <a name = "live"></a>
-**Click [here](https://ted-book-store-redux.herokuapp.com/) in order to see a Live Demo of this project.**
+ An assignment to test problem-solving and backend development skills, assuming a case to synchronizing user roles from a customer’s Azure AD (Active
+Directory) to local system’s access rights.
 
 
 ## 🔧 Built with<a name = "with"></a>
@@ -35,18 +29,16 @@ Provide comments.
 - CSS
 - React
 - Node
-- Redux
 
 ## 🔨 Setup<a name = "setup"></a>
 ### Run a Local Copy
 - Download the repository to a local directory on your computer.
 - Or run the following commands on the terminal
-  $ git clone https://github.com/tta2yta/redux-bookstore.git
-  $ cd redux-bookstore
-  $ npm install
-  $ npm install --only=dev
-  $ npm start (This is the development mode)
-  $ npm run build (This is the production mode)
+-  $ git clone https://github.com/tta2yta/BC_Platforms_ASSIGN.git
+- $ cd server
+-  $ npm install
+-  $ npm start (This is the development mode)
+-  $ npm run build (This is the production mode)
 
 ## Run Test
 npm run test
