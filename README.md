@@ -33,6 +33,7 @@ Directory) to local system’s access rights.
 - Download the repository to a local directory on your computer.
 - Or run the following commands on the terminal
 -  $ git clone https://github.com/tta2yta/BC_Platforms_ASSIGN.git
+- $ cd BC_Platforms_ASSIGN    #navigate to root directory
 - $ cd server
 -  $ npm install
 -  $ npm start (This is the development mode)
@@ -41,6 +42,7 @@ Directory) to local system’s access rights.
 - Download the repository to a local directory on your computer.
 - Or run the following commands on the terminal
 -  $ git clone https://github.com/tta2yta/BC_Platforms_ASSIGN.git
+- $ cd BC_Platforms_ASSIGN    #navigate to root directory
 - $ cd client
 -  $ npm install
 -  $ npm start (This is the development mode)
