@@ -51,10 +51,21 @@ Directory) to local system’s access rights.
 ## Run Test (Functional Testing)
 ### Test server with postman
 - make sure you run command ($ npm start ). The server will start listing at port 8000.
-- Open PostMan and create post request with the url =  127.0.01:8000/roles/customer-role or http://127.0.01:8000/roles/customer-role
+- Open PostMan and create post api request with the url =  127.0.01:8000/roles/customer-role or http://127.0.01:8000/roles/customer-role
 
 ![image](https://user-images.githubusercontent.com/56317574/178114564-d4dc92df-fbd2-4b2f-b512-f5c962d0ac5c.png)
 
+- In the body section of the post api requet select **json** type format to send json format data to server
+![image](https://user-images.githubusercontent.com/56317574/178114721-a6b7d3ca-f0e3-4acb-b1cf-c16c285539bd.png)
+
+- write the following json data in the editor and click send
+   {
+    "name":"person-1",
+    "roles":[
+        {"role":"002 - Clinical personnel"},
+        {"role":"003 - Warehouse personnel"}
+    ]
+}
 
 If you are non a technical person you can download the zip file.
 
