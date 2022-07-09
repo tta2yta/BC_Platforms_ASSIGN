@@ -15,7 +15,9 @@
     "body-parser": "^1.20.0",
     "cors": "^2.8.5",
     "express": "^4.18.1",
-    "nodemon": "^2.0.19"
+    "local-storage": "^2.0.0",
+    "nodemon": "^2.0.19",
+    "store2": "^2.13.2"
   },
   "devDependencies": {
     "eslint": "^8.19.0",
