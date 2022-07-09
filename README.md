@@ -66,7 +66,7 @@ Directory) to local system’s access rights.
         {"role":"003 - Warehouse personnel"}
     ]
    }
-<pre> <br>
+</pre> <br>
 
 - Finally, you will receive the following result
     ![image](https://user-images.githubusercontent.com/56317574/178114908-3bfee331-76e1-414e-a836-ee97c7e187fe.png)
