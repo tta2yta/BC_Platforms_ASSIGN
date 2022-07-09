@@ -74,7 +74,7 @@ Directory) to local system’s access rights.
 
 ### Test server with Front-end React application
 - make sure you run command ($ npm start ). Default port the application running is 3000.
-- You will see the following GUI
+- You will see the following GUI <br>
    ![image](https://user-images.githubusercontent.com/56317574/178115502-e41b382c-85e3-4b87-95f0-0eb24423b1f2.png)
 - Type name, select customer roles from list of options and select submit
    ![image](https://user-images.githubusercontent.com/56317574/178115556-13bec890-d3e7-456b-8810-b40860433132.png)
