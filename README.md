@@ -7,11 +7,9 @@
 ## Content
 
 <a text-align="center" href="#about">About</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-<a href="#description">Description</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-<a href="#live">Live Demo</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-<a href="#screenshots">Screenshots</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 <a href="#with">Built with</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-<a href="#setup">Setup</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+<a href="#setup">Setup/Run</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+<a href="#test">Test</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 <a href="#prerequisites">Prerequisites</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 <a href="#author">Author</a>
 
@@ -48,7 +46,7 @@ Directory) to local system’s access rights.
 -  $ npm start (This is the development mode)
 -  $ npm run build (This is the production mode)
 
-## Run Test (Functional Testing)
+## Run Test (Functional Testing) <a name = "test"></a>
  You can test the application with two ways, with postman and front-end React application
 ### Test server with postman
 - make sure you run command ($ npm start ). The server will start listing at port 8000.
@@ -72,7 +70,7 @@ Directory) to local system’s access rights.
 - Finally, you will receive the following result
     ![image](https://user-images.githubusercontent.com/56317574/178114908-3bfee331-76e1-414e-a836-ee97c7e187fe.png)
 
-### Test server with Front-end React application
+### Test server with Front-end React application 
 - make sure you run command ($ npm start ). Default port the application running is 3000.
 - You will see the following GUI <br>
    ![image](https://user-images.githubusercontent.com/56317574/178115502-e41b382c-85e3-4b87-95f0-0eb24423b1f2.png)
