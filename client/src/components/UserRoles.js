@@ -11,14 +11,11 @@ function UserRoles() {
     roles.map((v) => {
       return rolesObj.push({ role: v });
     });
-    console.log("roles", rolesObj);
     const customerRoles = { name, roles: rolesObj };
-    console.log(customerRoles);
     axios
       .post(url, customerRoles)
       .then((res) => {
         if (res.status === 201) {
-          console.log(res.data);
           setBCRoles(res.data);
         }
       })
