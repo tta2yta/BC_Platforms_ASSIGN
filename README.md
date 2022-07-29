@@ -16,7 +16,7 @@
 
 ## About <a name = "about"></a>
 
- An assignment to test problem-solving and backend development skills, assuming a case to synchronizing user roles from a customer’s Azure AD (Active
+A problem-solving and backend development skills, assuming a case to synchronizing user roles from a customer’s Azure AD (Active
 Directory) to local system’s access rights.
 
 
